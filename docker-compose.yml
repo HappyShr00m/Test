@@ -3,7 +3,7 @@ services:
   wireguard:
     container_name: wg-manager
     build:
-      context: https://github.com/perara/wg-manager#dev
+      context: https://github.com/perara/wg-manager#devd
     restart: always
     sysctls:
       net.ipv6.conf.all.disable_ipv6: 0  # Required for IPV6
